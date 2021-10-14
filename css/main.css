@@ -1,0 +1,485 @@
+@font-face {
+    src: url("../fonts/MullerRegular.otf");
+    font-family: MullerRegular;
+}
+
+@font-face {
+    src: url("../fonts/ MullerBlack.otf");
+    font-family: MullerBlack;
+}
+
+@font-face {
+    src: url("../fonts/ MullerBold.otf");
+    font-family: MullerBold;
+}
+
+@font-face {
+    src: url("../fonts/MullerExtraBold.otf");
+    font-family: MullerExtraBold;
+}
+
+
+body {
+    margin: 0;
+    font-family: MullerRegular, sans-serif;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    font-family: "MullerBlack", sans-serif;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+}
+
+#menu {
+    margin: 0 248px 0 261px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a.menu-item {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 622px;
+}
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(185, 145, 80);
+    font-weight: bold;
+    line-height: 1.222;
+    margin: 0;
+}
+
+#main-info h1 span {
+    color: #ffaf18;
+}
+
+#main-advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.advantage .advantage-text {
+    margin-left: 16px;
+}
+
+.advantage .advantage-title {
+    margin-left: 16px;
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.advantage .advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    margin-top: 10px;
+}
+
+.btn {
+    text-align: center;
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+#main-action {
+    margin-top: 60px;
+}
+
+#main-action .btn {
+    width: 224px;
+    display: inline-block;
+}
+
+#products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+#products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(189, 152, 92);
+    text-align: center;
+}
+
+#products-items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product .product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    margin-top: 15px;
+}
+
+.product .product-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+
+.product .product-button.btn {
+    border: 0;
+    outline: 0;
+    margin-top: 15px;
+    padding:17px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.product .product-image {
+    height: 155px;
+}
+
+#order{
+    overflow:hidden ;
+}
+
+#order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#order-text {
+    max-width: 384px;
+}
+
+#order-text-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold",sans-serif;
+    color: #b99150;
+    line-height: 1.286;
+}
+
+#order-text-title span {
+    color: rgb(255, 175, 24);
+}
+
+
+#order-text-message {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    margin-top: 65px;
+}
+
+
+#order-form {
+    max-width: 330px;
+}
+
+#order-form input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 24px;
+}
+
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+#order-form button.btn {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+#order-image {
+    width: 282px;
+    position: relative;
+}
+
+#order-image img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+#burger {
+    display: none;
+}
+#menu svg {
+    display: none;
+}
+
+.animate__pulse {
+    animation: pulse 4s infinite;
+}
+
+.animate__fadeInUp {
+    animation-duration: 2s;
+}
+
+.animate__slideInRight {
+    animation-duration: 2s;
+}
+
+.animate__slideInUp {
+    animation-duration: 3s;
+}
+
+.hvr-hollow:hover {
+    background: radial-gradient(#ff9800, #fb2222fc);
+
+}
+.hvr-round-corners:hover {
+    background: radial-gradient(#ff9800, #fb2222fc);
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 44px;
+    width: auto;
+    max-width: 539px;
+    margin: 20px auto;
+}
+
+#test-popup {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#test-forms {
+    font-family: "MullerRegular", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+a.btnn {
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+   width: 100%;
+}
+
+#popup-btn {
+    display: block;
+    margin: auto;
+   margin-top: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+   width: 25%;
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#forms-btn {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    width: 25%;
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#popup-btn:hover {
+    background: radial-gradient(#ff9800, #fb2222fc);
+}
+
+#forms-btn:hover {
+    background: radial-gradient(#ff9800, #fb2222fc);
+}
+
+.mfp-close {
+    position: relative;
+    line-height: 16px;
+    opacity: 1;
+}
+
+button.mfp-close {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.65;
+    padding: 0 0 18px 10px;
+    color: #FFF;
+    font-style: normal;
+    font-size: 28px;
+    font-family: Arial, Baskerville, monospace;
+}
+
+.error-input {
+    font-size: 15px;
+    color: red;
+    display: none;
+    position: relative;
+    bottom: 12px;
+}
+
+
+
+#loader{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #e7650a;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #e7650a transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
